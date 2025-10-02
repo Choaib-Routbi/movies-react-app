@@ -35,18 +35,17 @@ body {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 30px ;
+  padding: 30px;
   text-align: center;
-  
 }
-h1{
+h1 {
   margin: 0;
   padding: 0;
   color: white;
   font-size: 2em;
   color: rgba(81, 203, 238, 1);
 }
-.nav-subtitle{
+.nav-subtitle {
   color: #ccc;
   font-size: 0.8em;
   margin: 0;
@@ -54,7 +53,7 @@ h1{
   font-weight: 400;
   margin-bottom: 30px;
 }
-.input-search{
+.input-search {
   width: 300px;
   height: 40px;
   border-radius: 10px;
@@ -63,7 +62,7 @@ h1{
   font-size: 16px;
   border: 1px solid rgba(81, 203, 238, 0);
 }
-.input-search:focus{
+.input-search:focus {
   outline: none;
   box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   border: 1px solid rgba(81, 203, 238, 1);
@@ -74,12 +73,12 @@ h1{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
   gap: 40px;
-  Justify-items: center;
+  justify-items: center;
   align-items: center;
   padding: 50px 20px 20px 20px;
   background-color: #0e0f18;
 }
-.movie-card{
+.movie-card {
   background-color: #1a1a1a;
   color: white;
   border-radius: 10px;
@@ -89,27 +88,27 @@ h1{
   height: 350px;
   text-align: center;
   cursor: pointer;
-
 }
-.movie-card:hover{
+.movie-card:hover {
   transform: scale(1.03);
 }
-.card-img{
+.card-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
   transition: all 0.3s ease;
   z-index: 30;
+  opacity: 0.7;
 }
-.card-img:hover{
+.card-img:hover {
   opacity: 0.3;
 }
-.movie-title{
+.movie-title {
   font-size: 1.3em;
   font-weight: 700;
 }
-.movie-info{
+.movie-info {
   z-index: 20;
   padding: 10px;
   line-height: 10px;
@@ -118,7 +117,5 @@ h1{
   opacity: 1;
   transition: opacity 0.3s ease;
 }
-
-
 
 /* //////////////////////////////////// */
